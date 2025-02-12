@@ -13,3 +13,6 @@ citations, and 44,915 references.
 - Analyze the impact of different indicators quantitively.
 
 ## Research overview
+The following is the model of this paper. This figure provides an overview of the interdisciplinary breakthrough innovation generation process.
+![fig1-model](img/fig1-model.png)
+
