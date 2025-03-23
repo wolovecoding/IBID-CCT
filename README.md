@@ -1,16 +1,7 @@
 # IBID-CCT
 This is the repository for the IPM 2025 paper "IBID-CCT: A Novel Model for Interdisciplinary Breakthrough Innovation Detection based on Cusp Catastrophe Theory"
 ## Overview
-IBID-CCT: A Novel Model for Interdisciplinary Breakthrough Innovation Detection based on Cusp Catastrophe Theory. The main contributions of this paper are reflected in the following five aspects.
-
-- A comprehensive investigation and analysis of the mechanism and typical characteristics of interdisciplinary break-
-through innovation.
-- A novel model, IBID-CCT, for interdisciplinary breakthrough innovation detection based on various indicators and the
-cusp catastrophe theory using eight machine learning and three deep learning models.
-- Evaluate IBID-CCT and compare the performance with three baselines on a dataset with 3,075 papers, 1,340,482
-citations, and 44,915 references.
-- IBID-CCT models built on LGBM and BERT achieve the best performance and they outperform all the baselines.
-- Analyze the impact of different indicators quantitively.
+Detecting interdisciplinary breakthrough innovations is critical for identifying scientific advances and fostering original innovation. Previous studies primarily focus on single-dimensional publication characteristics, such as reference-based or citation-based metrics, which fail to fully capture the complexity of interdisciplinary breakthrough innovations. This study introduces the IBID-CCT model (interdisciplinary breakthrough innovation detection based on cusp catastrophe theory) to address this gap. We explain the mechanism of interdisciplinary breakthrough innovation and propose metrics based on interdisciplinary knowledge integration, fusion, and diffusion stages, grounded in IBID-CCT. First, we construct an experimental dataset comprising papers from prestigious academic awards, including the Nobel Prize, Wolf Prize, Crafoord Prize, Breakthrough Prize, and Turing Award. Using this dataset, we train machine learning and deep learning models based on IBID-CCT metrics to identify interdisciplinary breakthroughs. The experimental results show that the IBID-CCT model built on LGBM and the one built on BERT achieve the best results with an F1 score of 0.8631 and 0.8604, respectively. To further analyze the impact of each metric in IBID-CCT, SHAP analysis is applied to interpret the LGBM model’s results, while word distribution and sentiment analysis are used to interpret the BERT model’s outputs. These analyses reveal that interdisciplinary breakthrough innovations typically involve the integration of cutting-edge, diverse knowledge; experience long-term knowledge diffusion; and consistently positively drive multi-field development. Finally, comparative experiments confirm that our IBID-CCT model significantly outperforms existing methods such as the Disruption Index, Reference Interdisciplinarity, and Citation Interdisciplinarity in both breakthrough innovation detection and interdisciplinary breakthrough innovation detection tasks. This research provides a comprehensive framework for understanding the mechanisms of interdisciplinary breakthrough innovations, designing effective models for their detection, and forecasting future trends in innovation.
 
 ## Research Overview
 The following is the model of this paper. This figure provides an overview of the interdisciplinary breakthrough innovation generation process.
@@ -63,4 +54,12 @@ IBID-CCT                            Root directory
 
 ## Citation
 Please cite the following paper if you use these codes and datasets in your work.
-> This section will be updated after the paper is accepted.
+> @article{WANG2025104121,
+          title = {IBID-CCT: A novel model for interdisciplinary breakthrough innovation detection based on the cusp catastrophe theory},
+          journal = {Information Processing & Management},
+          volume = {62},
+          number = {4},
+          pages = {104121},
+          year = {2025},
+          issn = {0306-4573},
+          doi = {https://doi.org/10.1016/j.ipm.2025.104121}}
