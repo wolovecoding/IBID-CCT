@@ -54,12 +54,16 @@ IBID-CCT                            Root directory
 
 ## Citation
 Please cite the following paper if you use these codes and datasets in your work.
-> @article{WANG2025104121,
-          title = {IBID-CCT: A novel model for interdisciplinary breakthrough innovation detection based on the cusp catastrophe theory},
-          journal = {Information Processing & Management},
-          volume = {62},
-          number = {4},
-          pages = {104121},
-          year = {2025},
-          issn = {0306-4573},
-          doi = {https://doi.org/10.1016/j.ipm.2025.104121}}
+```
+@article{WANG2025104121,  
+               title={{IBID-CCT}: A novel model for interdisciplinary breakthrough innovation detection based on the cusp catastrophe theory},  
+               author = {Zhongyi Wang and Na Wang and Haoxuan Zhang and Zeren Wang and Zhou Wang and Junhua Ding and Haihua Chen},  
+               journal={Information Processing & Management},  
+               volume={62},  
+               number={4},  
+               pages={104121},  
+               year={2025},  
+               issn={0306-4573},  
+               doi={https://doi.org/10.1016/j.ipm.2025.104121}  
+}
+``` 
